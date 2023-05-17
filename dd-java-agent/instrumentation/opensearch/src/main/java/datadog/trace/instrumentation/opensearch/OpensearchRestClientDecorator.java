@@ -22,11 +22,9 @@ public class OpensearchRestClientDecorator extends DBTypeProcessingDatabaseClien
   public static final CharSequence OPERATION_NAME =
       UTF8BytesString.create(
           SpanNaming.instance().namingSchema().database().operation("opensearch.rest"));
-  public static final CharSequence OPENSEARCH_JAVA =
-      UTF8BytesString.create("opensearch-java");
+  public static final CharSequence OPENSEARCH_JAVA = UTF8BytesString.create("opensearch-java");
 
-  public static final OpensearchRestClientDecorator DECORATE =
-      new OpensearchRestClientDecorator();
+  public static final OpensearchRestClientDecorator DECORATE = new OpensearchRestClientDecorator();
 
   @Override
   protected String[] instrumentationNames() {

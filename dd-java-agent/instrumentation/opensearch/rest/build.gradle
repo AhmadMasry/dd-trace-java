@@ -6,12 +6,6 @@ muzzle {
     versions = "[1,)"
     assertInverse = true
   }
-
-//  fail {
-//    group = "opensearch-rest-client"
-//    module = "rest"
-//    versions = "[,]" // legacy artifact, all versions should fail
-//  }
 }
 
 apply from: "$rootDir/gradle/java.gradle"

@@ -1,7 +1,6 @@
 package datadog.trace.instrumentation.opensearch;
 
 import datadog.trace.bootstrap.instrumentation.api.AgentSpan;
-import datadog.trace.instrumentation.opensearch.OpensearchRestClientDecorator;
 import org.opensearch.client.Response;
 import org.opensearch.client.ResponseListener;
 

@@ -18,8 +18,7 @@ public class OpensearchTransportClientDecorator extends DBTypeProcessingDatabase
 
   public static final CharSequence OPERATION_NAME =
       UTF8BytesString.create(SpanNaming.instance().namingSchema().database().operation(DB_TYPE));
-  public static final CharSequence OPENSEARCH_JAVA =
-      UTF8BytesString.create("opensearch-java");
+  public static final CharSequence OPENSEARCH_JAVA = UTF8BytesString.create("opensearch-java");
 
   public static final OpensearchTransportClientDecorator DECORATE =
       new OpensearchTransportClientDecorator();
